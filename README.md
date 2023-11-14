@@ -13,10 +13,8 @@ The dataset contains a total of 2,924 grayscale images with a significant class 
 
 Working
 - I first split the dataset so that to reserve a validation set of 30 images per classes (90 images total). This will allow to measure the accuracy of the model during training.
-
-- I then develop an approach similar to my other projects [Skin-Cancer-Classification](https://github.com/LaurentVeyssier/Skin-Cancer-Classifier-Dermatologist-AI).
-  - I use ResNet18 network, with weights pre-trained on ImageNet, only adjusting the final classification layer to predict between the 3 classes.
-  - I allow to fine-tune all model parameters during training
+- I use ResNet18 network, with weights pre-trained on ImageNet, only adjusting the final classification layer to predict between the 3 classes.
+- I allow to fine-tune all model parameters during training
 
 - Training conditions:
   - Adam optimizer with learning rate of 3e-5
