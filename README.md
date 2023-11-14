@@ -3,7 +3,7 @@ Deep learning model to classify Chest X Ray scan images between 3 classes includ
 
 ![](assets/xrays.png)
 
-# Description
+ Project Statement 
 This Coursera project aims to classify XRay scan images between 3 classes: Normal, Viral pneumonia and COVID-19.
 The project utilizes a dataset of images which can be found at Kaggle [here](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database).
 The dataset contains a total of 2,924 grayscale images with a significant class imbalance due to under-representation of the COVID-19 class.
@@ -11,7 +11,7 @@ The dataset contains a total of 2,924 grayscale images with a significant class 
 - 1,345 `viral pneumonia` images
 - 219 `COVID-19` images
 
-# Approach
+Working
 - I first split the dataset so that to reserve a validation set of 30 images per classes (90 images total). This will allow to measure the accuracy of the model during training.
 
 - I then develop an approach similar to my other projects [Skin-Cancer-Classification](https://github.com/LaurentVeyssier/Skin-Cancer-Classifier-Dermatologist-AI).
@@ -28,9 +28,6 @@ The dataset contains a total of 2,924 grayscale images with a significant class 
 
 ![](assets/loss_profile.png)
 
-# How to use the notebook?
-- download the image dataset from Kaggle
-- Download and run the notebook
 
 # Results
 
